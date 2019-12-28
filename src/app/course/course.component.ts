@@ -37,5 +37,8 @@ export class CourseComponent implements OnInit, AfterViewInit {
 
     }
 
-
+  searchLessons(search: string = '') {
+    this.dataSource.filter = search.toLowerCase().trim();
+  console.error(this.dataSource.filter);
+    }
 }

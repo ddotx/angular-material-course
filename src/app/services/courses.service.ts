@@ -9,7 +9,7 @@ import {Lesson} from "../model/lesson";
 
 
 @Injectable()
-export class CoursesService {
+export class  CoursesService {
 
     constructor(private http:HttpClient) {
 
